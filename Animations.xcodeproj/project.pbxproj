@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890245D620A92DFB007BBC42 /* TransitionAnimationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890245D520A92DFB007BBC42 /* TransitionAnimationsController.m */; };
+		890245D920A94431007BBC42 /* AffineTransformAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890245D820A94431007BBC42 /* AffineTransformAnimationController.m */; };
+		890245DE20A99540007BBC42 /* BubbleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 890245DD20A99540007BBC42 /* BubbleMenu.m */; };
+		8939068A20B2A0FB00120DDB /* ReplicatorAnimationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8939068920B2A0FB00120DDB /* ReplicatorAnimationsController.m */; };
+		893B186020B50F8100D65A82 /* HaloLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 893B185F20B50F8100D65A82 /* HaloLabel.m */; };
+		893B186320B553DD00D65A82 /* ReplicatorSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893B186220B553DD00D65A82 /* ReplicatorSecondController.m */; };
+		893B186720B564B500D65A82 /* InvertedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 893B186620B564B500D65A82 /* InvertedView.m */; };
+		89449D2920AAD87100AFD5A3 /* BubbleMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89449D2820AAD87100AFD5A3 /* BubbleMenuController.m */; };
+		89449D2D20AAE7FE00AFD5A3 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 89449D2C20AAE7FE00AFD5A3 /* UIImage+Color.m */; };
 		8946677920A5680900CF894E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8946677820A5680900CF894E /* AppDelegate.m */; };
 		8946677C20A5680900CF894E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8946677B20A5680900CF894E /* ViewController.m */; };
 		8946677F20A5680900CF894E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8946677D20A5680900CF894E /* Main.storyboard */; };
@@ -15,6 +24,13 @@
 		8946678720A5680900CF894E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8946678620A5680900CF894E /* main.m */; };
 		8946679120A5680900CF894E /* AnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8946679020A5680900CF894E /* AnimationsTests.m */; };
 		8946679C20A5680900CF894E /* AnimationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8946679B20A5680900CF894E /* AnimationsUITests.m */; };
+		894667AF20A57CEA00CF894E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894667AE20A57CEA00CF894E /* BaseViewController.m */; };
+		894667B220A57D4300CF894E /* BasicAnimationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894667B120A57D4300CF894E /* BasicAnimationsController.m */; };
+		894667B620A5A0AB00CF894E /* KeyFrameAnimationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894667B520A5A0AB00CF894E /* KeyFrameAnimationsController.m */; };
+		8947FE4A20B6A94600C34D77 /* BloomingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8947FE4920B6A94600C34D77 /* BloomingButton.m */; };
+		895BFED020A91EA400FD561E /* GroupAnimationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 895BFECF20A91EA400FD561E /* GroupAnimationsController.m */; };
+		895EB09320AEA9EE00B68FB4 /* EmitterAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 895EB09220AEA9EE00B68FB4 /* EmitterAnimationController.m */; };
+		E4E82CB06BA608BF12C82632 /* libPods-Animations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 856DFC13644E8157802AE0EF /* libPods-Animations.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B81D86F7EBCA841907B62D1 /* Pods-Animations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Animations/Pods-Animations.debug.xcconfig"; sourceTree = "<group>"; };
+		856DFC13644E8157802AE0EF /* libPods-Animations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Animations.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		890245D420A92DFB007BBC42 /* TransitionAnimationsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationsController.h; sourceTree = "<group>"; };
+		890245D520A92DFB007BBC42 /* TransitionAnimationsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationsController.m; sourceTree = "<group>"; };
+		890245D720A94431007BBC42 /* AffineTransformAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AffineTransformAnimationController.h; sourceTree = "<group>"; };
+		890245D820A94431007BBC42 /* AffineTransformAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffineTransformAnimationController.m; sourceTree = "<group>"; };
+		890245DC20A99540007BBC42 /* BubbleMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleMenu.h; sourceTree = "<group>"; };
+		890245DD20A99540007BBC42 /* BubbleMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleMenu.m; sourceTree = "<group>"; };
+		8939068820B2A0FB00120DDB /* ReplicatorAnimationsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplicatorAnimationsController.h; sourceTree = "<group>"; };
+		8939068920B2A0FB00120DDB /* ReplicatorAnimationsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorAnimationsController.m; sourceTree = "<group>"; };
+		893B185E20B50F8100D65A82 /* HaloLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HaloLabel.h; sourceTree = "<group>"; };
+		893B185F20B50F8100D65A82 /* HaloLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaloLabel.m; sourceTree = "<group>"; };
+		893B186120B553DD00D65A82 /* ReplicatorSecondController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplicatorSecondController.h; sourceTree = "<group>"; };
+		893B186220B553DD00D65A82 /* ReplicatorSecondController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorSecondController.m; sourceTree = "<group>"; };
+		893B186520B564B500D65A82 /* InvertedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvertedView.h; sourceTree = "<group>"; };
+		893B186620B564B500D65A82 /* InvertedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvertedView.m; sourceTree = "<group>"; };
+		89449D2720AAD87100AFD5A3 /* BubbleMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleMenuController.h; sourceTree = "<group>"; };
+		89449D2820AAD87100AFD5A3 /* BubbleMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleMenuController.m; sourceTree = "<group>"; };
+		89449D2B20AAE7FE00AFD5A3 /* UIImage+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		89449D2C20AAE7FE00AFD5A3 /* UIImage+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		8946677420A5680900CF894E /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8946677720A5680900CF894E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8946677820A5680900CF894E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +87,21 @@
 		8946679720A5680900CF894E /* AnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8946679B20A5680900CF894E /* AnimationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationsUITests.m; sourceTree = "<group>"; };
 		8946679D20A5680900CF894E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894667AC20A577CD00CF894E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		894667AD20A57CEA00CF894E /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		894667AE20A57CEA00CF894E /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		894667B020A57D4300CF894E /* BasicAnimationsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicAnimationsController.h; sourceTree = "<group>"; };
+		894667B120A57D4300CF894E /* BasicAnimationsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationsController.m; sourceTree = "<group>"; };
+		894667B320A57F8800CF894E /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		894667B420A5A0AB00CF894E /* KeyFrameAnimationsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationsController.h; sourceTree = "<group>"; };
+		894667B520A5A0AB00CF894E /* KeyFrameAnimationsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimationsController.m; sourceTree = "<group>"; };
+		8947FE4820B6A94600C34D77 /* BloomingButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BloomingButton.h; sourceTree = "<group>"; };
+		8947FE4920B6A94600C34D77 /* BloomingButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloomingButton.m; sourceTree = "<group>"; };
+		895BFECE20A91EA400FD561E /* GroupAnimationsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupAnimationsController.h; sourceTree = "<group>"; };
+		895BFECF20A91EA400FD561E /* GroupAnimationsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupAnimationsController.m; sourceTree = "<group>"; };
+		895EB09120AEA9EE00B68FB4 /* EmitterAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmitterAnimationController.h; sourceTree = "<group>"; };
+		895EB09220AEA9EE00B68FB4 /* EmitterAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmitterAnimationController.m; sourceTree = "<group>"; };
+		A5FF39D2F392AF051C2C9C6B /* Pods-Animations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animations.release.xcconfig"; path = "Pods/Target Support Files/Pods-Animations/Pods-Animations.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E82CB06BA608BF12C82632 /* libPods-Animations.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +130,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06B7FB1BE4C080C407501E22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B81D86F7EBCA841907B62D1 /* Pods-Animations.debug.xcconfig */,
+				A5FF39D2F392AF051C2C9C6B /* Pods-Animations.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		408836C8677E4EEBE0024F6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				856DFC13644E8157802AE0EF /* libPods-Animations.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		890245DA20A98877007BBC42 /* AnimationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				894667AD20A57CEA00CF894E /* BaseViewController.h */,
+				894667AE20A57CEA00CF894E /* BaseViewController.m */,
+				894667B020A57D4300CF894E /* BasicAnimationsController.h */,
+				894667B120A57D4300CF894E /* BasicAnimationsController.m */,
+				894667B420A5A0AB00CF894E /* KeyFrameAnimationsController.h */,
+				894667B520A5A0AB00CF894E /* KeyFrameAnimationsController.m */,
+				895BFECE20A91EA400FD561E /* GroupAnimationsController.h */,
+				895BFECF20A91EA400FD561E /* GroupAnimationsController.m */,
+				890245D420A92DFB007BBC42 /* TransitionAnimationsController.h */,
+				890245D520A92DFB007BBC42 /* TransitionAnimationsController.m */,
+				890245D720A94431007BBC42 /* AffineTransformAnimationController.h */,
+				890245D820A94431007BBC42 /* AffineTransformAnimationController.m */,
+				89449D2720AAD87100AFD5A3 /* BubbleMenuController.h */,
+				89449D2820AAD87100AFD5A3 /* BubbleMenuController.m */,
+				895EB09120AEA9EE00B68FB4 /* EmitterAnimationController.h */,
+				895EB09220AEA9EE00B68FB4 /* EmitterAnimationController.m */,
+				8939068820B2A0FB00120DDB /* ReplicatorAnimationsController.h */,
+				8939068920B2A0FB00120DDB /* ReplicatorAnimationsController.m */,
+				893B186120B553DD00D65A82 /* ReplicatorSecondController.h */,
+				893B186220B553DD00D65A82 /* ReplicatorSecondController.m */,
+			);
+			path = AnimationControllers;
+			sourceTree = "<group>";
+		};
+		890245DB20A994EA007BBC42 /* ComprehensiveCases */ = {
+			isa = PBXGroup;
+			children = (
+				890245DC20A99540007BBC42 /* BubbleMenu.h */,
+				890245DD20A99540007BBC42 /* BubbleMenu.m */,
+				893B185E20B50F8100D65A82 /* HaloLabel.h */,
+				893B185F20B50F8100D65A82 /* HaloLabel.m */,
+				8947FE4820B6A94600C34D77 /* BloomingButton.h */,
+				8947FE4920B6A94600C34D77 /* BloomingButton.m */,
+			);
+			path = ComprehensiveCases;
+			sourceTree = "<group>";
+		};
+		893B186420B5646100D65A82 /* AnimationViews */ = {
+			isa = PBXGroup;
+			children = (
+				893B186520B564B500D65A82 /* InvertedView.h */,
+				893B186620B564B500D65A82 /* InvertedView.m */,
+			);
+			path = AnimationViews;
+			sourceTree = "<group>";
+		};
 		8946676B20A5680900CF894E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +203,8 @@
 				8946678F20A5680900CF894E /* AnimationsTests */,
 				8946679A20A5680900CF894E /* AnimationsUITests */,
 				8946677520A5680900CF894E /* Products */,
+				06B7FB1BE4C080C407501E22 /* Pods */,
+				408836C8677E4EEBE0024F6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +221,17 @@
 		8946677620A5680900CF894E /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				890245DB20A994EA007BBC42 /* ComprehensiveCases */,
+				890245DA20A98877007BBC42 /* AnimationControllers */,
+				893B186420B5646100D65A82 /* AnimationViews */,
 				8946677720A5680900CF894E /* AppDelegate.h */,
 				8946677820A5680900CF894E /* AppDelegate.m */,
+				894667AC20A577CD00CF894E /* PrefixHeader.pch */,
+				894667B320A57F8800CF894E /* Macros.h */,
 				8946677A20A5680900CF894E /* ViewController.h */,
 				8946677B20A5680900CF894E /* ViewController.m */,
+				89449D2B20AAE7FE00AFD5A3 /* UIImage+Color.h */,
+				89449D2C20AAE7FE00AFD5A3 /* UIImage+Color.m */,
 				8946677D20A5680900CF894E /* Main.storyboard */,
 				8946678020A5680900CF894E /* Assets.xcassets */,
 				8946678220A5680900CF894E /* LaunchScreen.storyboard */,
@@ -139,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 894667A020A5680900CF894E /* Build configuration list for PBXNativeTarget "Animations" */;
 			buildPhases = (
+				3E8B8C3DE95A64D978804F22 /* [CP] Check Pods Manifest.lock */,
 				8946677020A5680900CF894E /* Sources */,
 				8946677120A5680900CF894E /* Frameworks */,
 				8946677220A5680900CF894E /* Resources */,
@@ -194,6 +322,7 @@
 		8946676C20A5680900CF894E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Mac1;
 				TargetAttributes = {
@@ -260,14 +389,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E8B8C3DE95A64D978804F22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Animations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8946677020A5680900CF894E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893B186020B50F8100D65A82 /* HaloLabel.m in Sources */,
+				890245DE20A99540007BBC42 /* BubbleMenu.m in Sources */,
 				8946677C20A5680900CF894E /* ViewController.m in Sources */,
+				890245D920A94431007BBC42 /* AffineTransformAnimationController.m in Sources */,
+				894667AF20A57CEA00CF894E /* BaseViewController.m in Sources */,
+				890245D620A92DFB007BBC42 /* TransitionAnimationsController.m in Sources */,
+				894667B620A5A0AB00CF894E /* KeyFrameAnimationsController.m in Sources */,
+				8939068A20B2A0FB00120DDB /* ReplicatorAnimationsController.m in Sources */,
+				8947FE4A20B6A94600C34D77 /* BloomingButton.m in Sources */,
+				89449D2920AAD87100AFD5A3 /* BubbleMenuController.m in Sources */,
 				8946678720A5680900CF894E /* main.m in Sources */,
 				8946677920A5680900CF894E /* AppDelegate.m in Sources */,
+				893B186720B564B500D65A82 /* InvertedView.m in Sources */,
+				895EB09320AEA9EE00B68FB4 /* EmitterAnimationController.m in Sources */,
+				893B186320B553DD00D65A82 /* ReplicatorSecondController.m in Sources */,
+				89449D2D20AAE7FE00AFD5A3 /* UIImage+Color.m in Sources */,
+				894667B220A57D4300CF894E /* BasicAnimationsController.m in Sources */,
+				895BFED020A91EA400FD561E /* GroupAnimationsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +593,15 @@
 		};
 		894667A120A5680900CF894E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B81D86F7EBCA841907B62D1 /* Pods-Animations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H42Q3R4VZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/mac1/Desktop/Animations/Animations/PrefixHeader.pch;
 				INFOPLIST_FILE = Animations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mac1.Animations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,10 +611,15 @@
 		};
 		894667A220A5680900CF894E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FF39D2F392AF051C2C9C6B /* Pods-Animations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H42Q3R4VZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/mac1/Desktop/Animations/Animations/PrefixHeader.pch;
 				INFOPLIST_FILE = Animations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mac1.Animations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
